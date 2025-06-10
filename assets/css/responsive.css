@@ -1,3 +1,10 @@
+@media only screen and (min-width: 1300px) {
+  .serv_sldier_cntnt_top .heading_h1 {
+    font-size: 62px;
+    line-height: 64px;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .ft_main_hldr {
     grid-template-columns: repeat(5, 1fr);
@@ -11,32 +18,49 @@
     font-size: 36px;
     line-height: 40px;
   }
-  .cta_sect_cntnt_hldr span {
-    font-size: 96px;
-    line-height: 94px;
+  .icon_bg_btn img {
+    max-width: 110px;
   }
-
+  .cta_sect_cntnt_hldr span {
+    font-size: 90px;
+    line-height: 92px;
+    padding-left: 70px;
+  }
+  .cta_sect_img_hldr img {
+    max-width: 300px;
+  }
+  .cta_sect_main_hldr {
+    background-position: right -40px center;
+  }
   .cta_sect_cntnt_hldr h2 {
-    font-size: 44px;
-    line-height: 54px;
+    font-size: 40px;
+    line-height: 50px;
   }
 
   .heading_h1 {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 64px;
+    line-height: 64px;
   }
   .cta_sect.image_position_btm h2 {
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 60px;
+    line-height: 68px;
+    text-wrap: balance;
   }
   .ban_img_hldr img {
     max-width: 500px;
+  }
+  .ib_title_heading .heading_h1 {
+    max-width: 775px;
+  }
+  .ib_title_cta {
+    max-width: 224px;
   }
 
   .ai_icon_box.bnr_icon_box {
     width: 140px;
     height: 140px;
-    top: 150px;
+    top: 120px;
+    left: 10px;
   }
 
   .ai_icon_box.bnr_icon_box img {
@@ -49,16 +73,15 @@
     bottom: 110px;
   }
 
-  .platform_content_hldr a img {
-    max-width: 120px;
+  .serv_sldier_cntnt_top .heading_h1 {
+    font-size: 60px;
+    line-height: 60px;
   }
 
   .camera_icon_box.bnr_icon_box img {
     max-width: 90px;
   }
-  .img_cntnt_content .icon_bg_btn img {
-    max-width: 120px;
-  }
+
   .ft_branding {
     grid-row: 1;
   }
@@ -313,6 +336,7 @@
 
   .cta_sect_img_hldr img {
     max-width: 320px;
+    transform: none;
   }
 
   .home_bnr_sect {
@@ -355,6 +379,7 @@
     font-size: 80px;
     max-width: 500px;
     line-height: 80px;
+    padding: 0;
   }
   .cta_sect_cntnt_hldr {
     display: flex;
@@ -380,11 +405,7 @@
     line-height: 32px;
   }
 
-  .img_cntnt_content .icon_bg_btn img {
-    max-width: 100px;
-  }
-
-  .platform_content_hldr a img {
+  .icon_bg_btn img {
     max-width: 100px;
   }
 
@@ -445,13 +466,12 @@
     padding: 20px 20px 20px 15px;
   }
 
-  .ib_title_cta a img {
-    max-width: 100px;
+  .ib_title_cta {
+    max-width: 184px;
   }
-
   .ib_title_heading .heading_h1 {
-    max-width: 700px;
-    line-height: 75px;
+    max-width: 650px;
+    line-height: 65px;
   }
 
   .icon_boxes_row {
@@ -464,8 +484,8 @@
   }
 
   .icon_box_content p {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 28px;
     max-width: 100%;
   }
 
@@ -635,6 +655,17 @@
     font-size: 26px;
     line-height: 34px;
   }
+  .nv-close {
+    height: 30px;
+    width: 30px;
+  }
+  .nv-close::after {
+    background-size: 10px;
+  }
+  .head_nav_clmn > ul > li > a {
+    font-size: 18px;
+    line-height: 24px;
+  }
   .head-logo img {
     max-width: 200px;
   }
@@ -751,7 +782,7 @@
     gap: 50px;
   }
 
-  .img_cntnt_content .icon_bg_btn img {
+  .icon_bg_btn img {
     max-width: 70px;
   }
 
@@ -763,10 +794,6 @@
   .img_cntnt_content p {
     font-size: 22px;
     line-height: 26px;
-  }
-
-  .platform_content_hldr a img {
-    max-width: 70px;
   }
 
   .serv_slider_sect {
@@ -852,10 +879,6 @@
 
   .icon_boxes_sect {
     padding: 80px 0;
-  }
-
-  .ib_title_cta a img {
-    max-width: 70px;
   }
 
   .ib_title_heading .heading_h1 {
@@ -1055,6 +1078,7 @@
   .cta_sect_cntnt_hldr span {
     font-size: 42px;
     line-height: 50px;
+    text-align: center;
   }
 
   .cta_sect_img_hldr img {
@@ -1065,7 +1089,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .img_cntnt_content .icon_bg_btn img {
+  .icon_bg_btn img {
     max-width: 60px;
   }
 
@@ -1087,9 +1111,6 @@
 
   .platform_main_hldr {
     padding: 50px 0;
-  }
-  .platform_content_hldr a img {
-    max-width: 60px;
   }
 
   .platform_main_hldr {
@@ -1176,7 +1197,7 @@
   }
 
   .cta_sect.image_position_btm .cta_sect_img_hldr img {
-    max-width: 280px;
+    max-width: 280px;margin: 0 auto;
   }
 
   .cta_sect.image_position_btm .cta_sect_cntnt_hldr {
@@ -1207,10 +1228,6 @@
     justify-content: space-between;
     max-width: 100%;
     align-items: center;
-  }
-
-  .ib_title_cta a img {
-    max-width: 60px;
   }
 
   .icon_box_content p {
