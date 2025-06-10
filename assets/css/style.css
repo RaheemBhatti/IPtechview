@@ -181,8 +181,8 @@ img {
 
 .top_bar_cntnt_hldr ul a {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 17px;
+  line-height: 21px;
   color: #000000;
   transition: all 0.2s ease-in-out;
 }
@@ -215,7 +215,7 @@ img {
 .head-logo img {
   width: 100%;
   display: block;
-  max-width: 230px;
+  max-width: 200px;
   object-fit: contain;
 }
 
@@ -319,7 +319,7 @@ img {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
 }
 
 .head-icons ul li a:has(img) {
@@ -341,8 +341,8 @@ img {
   border-radius: 50px;
   padding: 8px 45px;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 22px;
   color: #000000;
   transition: all 0.2s ease-in-out;
 }
@@ -370,7 +370,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: stretch;
-  padding: 0 50px;
+  padding: 0 60px 0 50px;
 }
 .bnr_cntnt_hldr {
   display: flex;
@@ -381,11 +381,13 @@ img {
 
 .bnr_cntnt_hldr h1 {
   color: #fff;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 52px;
+  max-width: 500px;
 }
 .ban_img_hldr img {
-  max-width: 450px;
+  max-width: 420px;
   margin: 0 0 0 auto;
 }
 
@@ -396,15 +398,17 @@ img {
 }
 .bnr_cntnt_hldr p {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   color: #fff;
+  max-width: 450px;
 }
 
 .bnr_cntnt_hldr .hom_bnr_cta_row {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .bnr_cntnt_hldr .hom_bnr_cta_row a {
@@ -413,7 +417,7 @@ img {
   padding: 5px 8px 5px 20px;
   min-height: 48px;
   max-height: 48px;
-  min-width: 190px;
+  min-width: 185px;
   color: #000000;
   font-weight: 500;
   font-size: 16px;
@@ -457,10 +461,10 @@ img {
 }
 
 .ai_icon_box.bnr_icon_box {
-  top: 70px;
+  top: 100px;
   width: 135px;
   height: 135px;
-  left: 80px;
+  left: 100px;
 }
 
 .ai_icon_box.bnr_icon_box img {
@@ -470,7 +474,7 @@ img {
 .camera_icon_box.bnr_icon_box {
   width: 150px;
   height: 110px;
-  bottom: 100px;
+  bottom: 70px;
   right: -25px;
 }
 
