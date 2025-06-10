@@ -6,6 +6,7 @@
   --theme-primary-color-dark: #8dc743;
   --theme-primary-color-light: #cae5a7;
   --theme-secondary-color: #00176a;
+  --theme-inner-prim-color: #001561;
   --theme-heading-color-light: #000000;
   --theme-heading-color-dark: #ffffff;
   --theme-border-color: #c9c1ad;
@@ -174,7 +175,7 @@ img {
 .top_bar_cntnt_hldr ul {
   display: flex;
   align-items: center;
-  column-gap: 35px;
+  column-gap: 30px;
   justify-content: flex-end;
 }
 
@@ -184,6 +185,9 @@ img {
   line-height: 22px;
   color: #000000;
   transition: all 0.2s ease-in-out;
+}
+.top_bar_cntnt_hldr ul a img {
+  max-width: 25px;
 }
 .top_bar_cntnt_hldr ul a:hover {
   color: var(--theme-primary-color);
@@ -229,7 +233,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
+  gap: 30px;
 }
 
 .head_nav_clmn > ul > li {
@@ -350,14 +354,15 @@ img {
 /* Header Section */
 
 /* Home Banner Section */
-.home_bnr_sect {
-  margin-bottom: 120px;
+.home_bnr_sect,
+.inner_banner {
+  margin-bottom: 100px;
 }
 .bnr_min_height {
-  min-height: 700px;
+  min-height: 600px;
 }
 
-.home_bnr_sect .home_bnr_clmns_hldr {
+.home_bnr_clmns_hldr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -376,9 +381,11 @@ img {
 
 .bnr_cntnt_hldr h1 {
   color: #fff;
+  font-size: 56px;
+  line-height: 56px;
 }
 .ban_img_hldr img {
-  max-width: 480px;
+  max-width: 450px;
   margin: 0 0 0 auto;
 }
 
@@ -389,8 +396,8 @@ img {
 }
 .bnr_cntnt_hldr p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 26px;
   color: #fff;
 }
 
@@ -450,25 +457,25 @@ img {
 }
 
 .ai_icon_box.bnr_icon_box {
-  top: 110px;
-  width: 150px;
-  height: 150px;
-  left: 50px;
+  top: 70px;
+  width: 135px;
+  height: 135px;
+  left: 80px;
 }
 
 .ai_icon_box.bnr_icon_box img {
-  max-width: 115px;
+  max-width: 100px;
 }
 
 .camera_icon_box.bnr_icon_box {
-  width: 180px;
-  height: 130px;
+  width: 150px;
+  height: 110px;
   bottom: 100px;
   right: -25px;
 }
 
 .camera_icon_box.bnr_icon_box img {
-  max-width: 105px;
+  max-width: 90px;
 }
 /* Home Banner Section */
 
@@ -1186,3 +1193,16 @@ img {
   color: #000;
 }
 /* Footer Styling */
+
+/* Inner Banner Styling */
+.inner_banner .bnr_cntnt_hldr .hom_bnr_cta_row a {
+  background: var(--theme-inner-prim-color);
+  color: #fff;
+}
+.inner_banner .bnr_icon_box {
+  display: none;
+}
+.inner_banner .bnr_cntnt_hldr .hom_bnr_cta_row a.bnr_to__go_cta img {
+  filter: invert(1);
+}
+/* Inner Banner Styling */
