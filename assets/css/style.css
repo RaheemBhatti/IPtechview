@@ -1209,4 +1209,73 @@ img {
 .inner_banner .bnr_cntnt_hldr .hom_bnr_cta_row a.bnr_to__go_cta img {
   filter: invert(1);
 }
+
+.inner_banner .home_bnr_clmns_hldr {
+  padding-right: 0;
+}
+
+.bnr_cntnt_hldr h1 span {
+  color: #6889ff;
+}
+.inner_banner .bnr_cntnt_hldr {
+  max-width: 450px;
+}
+.inner_banner.iamge_on_right .ban_img_hldr {
+  align-items: center;
+}
+.inner_banner.iamge_on_right .ban_img_hldr img {
+  max-width: 600px;
+}
 /* Inner Banner Styling */
+
+/* Image With Content Section */
+
+.multiimg_cntnt_hldr {
+  display: grid;
+  grid-template-columns: calc(70% - 10px) calc(30% - 10px);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.multiimg_cntnt_content {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.multiimg_cntnt_image {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.multiimg_cntnt_image img {
+  border-radius: 20px;
+  height: 100%;
+}
+
+.multiimg_cntnt_content * {
+  color: #fff;
+}
+.multiimg_cntnt_content p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: capitalize;
+  border-top: 1px solid #fff;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.multiimg_cntnt_content .icon_bg_btn {
+  margin-bottom: 50px;
+  display: block;
+  width: fit-content;
+}
+/* Image With Content Section */
+
+/* Image Icon List Section */
+
+
+/* Image Icon List Section */
